@@ -1,19 +1,19 @@
 [NEAT]
 # max or min fitness function
-fitness_criterion     = min
+fitness_criterion     = max
 # fitness threshold to stop evolution
-fitness_threshold     = 0.50 
+fitness_threshold     = 171.9
 # number of evaluations per generation
-pop_size              = 100
+pop_size              = 10
 # reset population if extinction occurs
-reset_on_extinction   = True 
+reset_on_extinction   = False 
 
 [DefaultGenome]
 ### node activation options ###
 # default activation function
 activation_default      = sigmoid
 # rate of activation function mutation 
-activation_mutate_rate   = 0.05 
+activation_mutate_rate   = 0.0 
 # allowed activation functions
 activation_options      = sigmoid tanh relu softplus 
 
@@ -56,16 +56,16 @@ enabled_default         = True
 enabled_mutate_rate      = 0.01
 
 feed_forward            = True
-initial_connection      = full_direct
+initial_connection      = full_nodirect
 
 # node add/remove rates
 node_add_prob           = 0.2
 node_delete_prob        = 0.2
 
 # network parameters
-num_hidden              = 0
+num_hidden              = 10
 num_inputs              = 9
-num_outputs             = 2
+num_outputs             = 1
 
 # node response options
 response_init_mean      = 1.0
