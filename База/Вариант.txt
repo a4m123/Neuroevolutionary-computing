@@ -1,7 +1,0 @@
-Алгоритм - NEAT
-Топология - Без ограничений на структуру
-
-Почитать: https://vc.ru/dev/318610-neat-algoritm-ili-kak-obygrat-kaktusy
-          https://konstantinklepikov.github.io/myknowlegebase/notes/neat.html
-          
-
